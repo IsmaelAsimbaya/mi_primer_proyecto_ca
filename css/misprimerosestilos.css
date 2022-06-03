@@ -1,7 +1,78 @@
-.botonesViejos{
+.botonesViejos {
     color: hotpink;
 }
 
-#idBttn{
+#idBttn {
     color: darkblue;
+}
+
+a[href] {
+    color: blue;
+    background-color: yellow;
+    opacity: 0.1;
+}
+
+#borde1 {
+    border-style: dotted;
+    visibility: hidden;
+}
+
+#borde2 {
+    border-style: dashed;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 70px;
+    font-family: cursive;
+}
+
+.borde3 {
+    border-style: solid;
+    margin: 100px 50px 20px 70px;
+    height: 500px;
+    width: 350px;
+}
+
+.borde4 {
+    border-style: double;
+    margin: 100px 50px;
+    height: 500px;
+    width: 950px;
+}
+
+#borde5 {
+    border-style: groove;
+    margin: 70px;
+}
+
+#borde6 {
+    border-style: ridge;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#borde7 {
+    border-style: inset;
+    padding: 40px 40px 40px 40px;
+    
+}
+
+#borde8 {
+    border-style: outset;
+    padding: 20px 20px;
+}
+
+#borde9 {
+    border-style: none;
+    padding: 40px;
+}
+
+#borde10 {
+    border-style: hidden;
+}
+
+#borde11 {
+    border-style: dotted dashed solid none;
 }
