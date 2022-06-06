@@ -1,6 +1,14 @@
 h1 {
     display: grid;
     font-size: 6em;
+}
+
+a {
+    border-radius: 15px 50px;
+    background: #ed13d3;
+}
+
+.titulo {
     font-weight: bolder;
     text-align: right;
 }
@@ -11,15 +19,20 @@ h1 {
 }
 
 #t1 {
-    text-shadow: 4px 4px 5px rgb(0, 200, 255);
     background-image: linear-gradient(rgb(255, 234, 0), rgb(31, 217, 31));
     text-transform: uppercase;
 }
 
-a[href] {
-    border-radius: 15px 50px;
-    background: #ed13d3;
+#l1{
+    
     padding: 50px;
+}
+
+a[href] {
     width: 200px;
     height: 150px;
+}
+
+h1[dropzone]{
+    text-shadow: 4px 4px 5px rgb(0, 200, 255);
 }
