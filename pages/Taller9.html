@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/taller9.css">
+    <title>Taller9</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de Registro</h1>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend>Nombre y apellidos</legend>
+            <p>
+
+                <input type="text" id="idNombre">
+                <label for="idNombre">Nombre</label>
+
+                <input type="text" id="idApellido1">
+                <label for="idApellido1">Primer Apellido</label>
+
+                <input type="text" id="idApellido2">
+                <label for="idApellido2">Segundo Apellido</label>
+
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dirección</legend>
+            <p>
+                <input type="text" id="idDir">
+                <label for="idDir">Calle, número, piso, puerta</label>
+            </p>
+            <div>
+            <table class="tabla">
+                <tr>
+                    <td>
+                        <input type="text" id="idCPos">
+                        <label for="idCPos">Codigo postal</label>
+                    </td>
+                    <td>
+                        <input type="text" id="idCanton">
+                        <label for="idCanton">Canton</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="provincia" id="idProvincia">
+                            <option value="P">Pichinca</option>
+                            <option value="C">Cotopaxi</option>
+                            <option value="E">Esmeraldas</option>
+                        </select>
+                        <label for="idProvincia">Provincia</label>
+                    </td>
+                    <td>
+                        <select name="pais" id="idPais">
+                            <option value="E">Ecuador</option>
+                            <option value="C">Chile</option>
+                            <option value="P">Peru</option>
+                        </select>
+                        <label for="idPais">Pais</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Email</legend>
+            <p>
+                <input type="text" id="idEmail">
+            </p>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Teléfono</legend>
+            <div>
+            <table class="tabla">
+                <tr>
+                    <td>
+                        <input type="text" id="idFijo">
+                        <label class="telf" for="idFijo">Fijo</label>
+                    </td>
+
+                    <td>
+                        <input type="text" id="idMovil">
+                        <label class="telf" for="idMovil">Móvil</label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        </fieldset>
+        <p id="idBoton"><input type="submit" name="" id="idButton" value="Registrarse"></p>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+input {
+    border-style: none none solid none;
+}
+
+header{
+    text-align: left;
+}
+
+#idBoton{
+    text-align: right;
+}
+
+label {
+    display: block;
+}
+
+input:focus,
+select:focus {
+    background-color: greenyellow;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1em;
+    /*1em = 16px*/
+    text-transform: uppercase;
+}
+
+.onLine {
+    display: inline;
+}
+
+fieldset {
+    margin: 1em;
+}
+
+fieldset:hover{
+    background-color: yellow;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+.tabla{
+    margin: auto;
+}
+
+
